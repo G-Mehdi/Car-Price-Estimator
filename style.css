@@ -1,0 +1,62 @@
+body {
+    background-color: #ffffff !important;
+    color: #2c3e50 !important;
+}
+
+.stMarkdown h1, h2, h3 {
+    color: #1a237e !important;
+}
+
+.stSelectbox, .stNumberInput, .stSlider {
+    border: 1px solid #1976d2 !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+}
+
+.stButton>button {
+    background-color: #1976d2 !important;
+    color: white !important;
+    border-radius: 25px !important;
+    padding: 12px 30px !important;
+    font-weight: bold !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton>button:hover {
+    background-color: #1565c0 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(25, 118, 210, 0.2) !important;
+}
+
+.result-box {
+    background-color: #f8f9fa !important;
+    border: 2px solid #1976d2 !important;
+    border-radius: 15px !important;
+    padding: 25px !important;
+    margin: 20px 0 !important;
+}
+
+.stExpander {
+    background-color: #ffffff !important;
+    border: 2px solid #e3f2fd !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 4px rgba(25, 118, 210, 0.1) !important;
+}
+
+.stRadio>div>div>label {
+    color: #2c3e50 !important;
+}
+
+
+.st-emotion-cache-1qg05tj {
+    gap: 0.5rem !important; 
+}
+
+.st-emotion-cache-1v0mbdj {
+    margin: 0 0.3rem !important;
+}
+
+.main-container {
+    padding: 20px 0 !important;
+}
