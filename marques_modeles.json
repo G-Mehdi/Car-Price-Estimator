@@ -34,6 +34,7 @@
         "SERIE 3",
         "SERIE 4",
         "SERIE 5",
+        "SERIE 7",
         "X1",
         "X2",
         "X3",
@@ -110,6 +111,7 @@
         "JUMPY",
         "NEMO",
         "SAXO",
+        "XANTIA",
         "XSARA",
         "XSARA PICASSO",
         "ZX"
@@ -242,7 +244,6 @@
         "SONATA",
         "TERRACAN",
         "TUCSON",
-        "TUCSON 4",
         "VELOSTER"
     ],
     "INFINITI": [
@@ -278,6 +279,7 @@
         "SEPHIA",
         "SHUMA",
         "SORENTO",
+        "SORENTO 4",
         "SPORTAGE",
         "SPORTAGE RESTYLE",
         "STONIC"
