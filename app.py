@@ -53,7 +53,7 @@ def input_construction(annee, marque, modele, kilometrage, papiers, boite, energ
 
 
 
-    if boite == "Manuelle" or boite == "Semi Automatique":
+    if boite == "Manuelle" or boite == "Seme Automatique":
         boite_col = f"Boite_{boite}"
         if boite_col in input_dict:
             input_dict[boite_col] = 1
@@ -77,7 +77,7 @@ def input_construction(annee, marque, modele, kilometrage, papiers, boite, energ
 
 # Page configuration
 st.set_page_config(
-    page_title="CarPrice Estimator - Voiture d'occasion",
+    page_title="CarPrice Master - Voiture d'occasion",
     page_icon="🚗",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -112,12 +112,13 @@ with col1:
     st.markdown("""
     <div style='text-align: center; padding: 20px;'>
         <div style='font-size: 48px; color: #1976d2;'>🚙</div>
+        <div style='color: #1a237e; font-size: 14px; margin-top: -15px;'>CAR ESTIMATOR</div>
     </div>
     """, unsafe_allow_html=True)
     
 with col2:
-    st.markdown("<h1 style='color: #1a237e; margin-bottom: 0;'>Estimation des prix des voitures d'occasion</h1>", unsafe_allow_html=True)
-    st.markdown("<div style='color: #1976d2; font-size: 18px; margin-top: -10px;'>Entrez les informations de votre voiture et obtenez une estimation de son prix selon le marché</div>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: #1a237e; margin-bottom: 0;'>AutoPrice Pro</h1>", unsafe_allow_html=True)
+    st.markdown("<div style='color: #1976d2; font-size: 18px; margin-top: -10px;'>Prédiction de Prix Précise</div>", unsafe_allow_html=True)
 
 # Main Content
 with st.container():
@@ -142,11 +143,11 @@ with st.container():
         with st.expander("📋 Informations du Véhicule", expanded=True):
             st.markdown("### Caractéristiques de base")
             annee = st.slider(
-                "Année du véhicule",
+                "Année de fabrication",
                 min_value=1970,
                 max_value=2025,
                 value=2013,
-                help="Sélectionnez l'année du véhicule"
+                help="Sélectionnez l'année de fabrication du véhicule"
             )
             
             marque = st.selectbox(
@@ -230,7 +231,7 @@ if predict_btn:
         {float(price[0][0]):,.0f} MILLIONS
     </p>
     <p style='text-align: center; color: #2c3e50;'>
-        Prix estimé pour un {marque} {modele} de {annee}
+        Prix estimé pour un {marque} {modele} {annee}
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -241,7 +242,7 @@ if predict_btn:
 # Footer
 st.markdown("---")
 footer = """<div style="text-align: center; color: #7f8c8d; padding: 20px;">
-    <p>📌 Note : Cette estimation est basée sur les tendances du marché et peut varier selon l'état du véhicule</p>
-    <p>© 2025 CarPrice Estimator - Tous droits réservés</p>
+    <p>📌 Note : Cette estimation est fournie à titre indicatif et peut varier en fonction du marché</p>
+    <p>© 2024 CarPrice Master - Tous droits réservés</p>
 </div>"""
 st.markdown(footer, unsafe_allow_html=True)

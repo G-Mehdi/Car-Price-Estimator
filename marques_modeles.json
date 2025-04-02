@@ -29,6 +29,7 @@
         "324",
         "520",
         "730",
+        "M3",
         "SERIE 1",
         "SERIE 2",
         "SERIE 3",
@@ -75,6 +76,7 @@
         "EPICA",
         "OPTRA 4 PORTES",
         "OPTRA 5 PORTES",
+        "ORLANDO",
         "SAIL 4 PORTES",
         "SAIL 5 PORTES",
         "SONIC",
@@ -243,6 +245,7 @@
         "SANTA FE",
         "SONATA",
         "TERRACAN",
+        "TRAJET",
         "TUCSON",
         "VELOSTER"
     ],
@@ -417,6 +420,7 @@
         "405",
         "406",
         "407",
+        "408",
         "5008",
         "504",
         "505",
@@ -429,6 +433,7 @@
         "BOXER",
         "EXPERT",
         "J9",
+        "P4",
         "PARTNER",
         "RCZ",
         "RIFTER"
@@ -446,6 +451,7 @@
         "CLIO 2",
         "CLIO 3",
         "CLIO 4",
+        "CLIO 4 ESTATE",
         "CLIO 4 FACELIFT",
         "CLIO 5",
         "CLIO CAMPUS",
@@ -490,6 +496,9 @@
         "TWINGO",
         "ZOE"
     ],
+    "SAAB": [
+        "9000"
+    ],
     "SEAT": [
         "ALTEA",
         "ARONA",
@@ -497,6 +506,8 @@
         "FURA",
         "IBIZA",
         "LEON",
+        "MARBELLA",
+        "MII",
         "TARRACO",
         "TOLEDO"
     ],
@@ -547,9 +558,11 @@
         "CAMRY",
         "CELICA",
         "COROLLA",
+        "COROLLA 10",
         "COROLLA VERSO",
         "CRESSIDA",
         "FORTUNER",
+        "FUNCRUISER",
         "GR86",
         "HI-LUX",
         "LANDCRUISER",
@@ -596,6 +609,7 @@
         "T-ROC",
         "TAIGO",
         "TAOS",
+        "TARO",
         "TIGUAN",
         "TOUAREG",
         "TOURAN",
